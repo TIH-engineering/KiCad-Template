@@ -88,6 +88,7 @@ jobs:
             ./artifact/kicad/drill/drill.pdf \
             ./artifact/kicad/bom/bom.xlsx \
             ./artifact/kicad/ibom/ibom.html \
+            ./artifact/kicad/mechanical/pcb.step \
             ./artifact/kicad.tar.gz \
             ./artifact/kicad.zip \
             ./artifact/kicad/blender/top.kicad.png \
