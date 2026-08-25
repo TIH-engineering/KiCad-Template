@@ -1,102 +1,85 @@
-[![Release](https://img.shields.io/github/v/release/TIH-engineering/Oszillatoren?display_name=tag)](../../releases/latest)
-[![Build](../../actions/workflows/build.yml/badge.svg)](../../actions/workflows/build.yml)
-[![License](https://img.shields.io/badge/Hardware-CC--BY--NC--SA--4.0-lightgrey)](LICENSE)
+# [PROJECT TITLE]
 
-# LA – Oszillatoren
+[![release](https://img.shields.io/github/v/release/[GITHUB_USER]/[REPOSITORY]?label=release)](https://github.com/[GITHUB_USER]/[REPOSITORY]/releases)
+[![Build](https://github.com/[GITHUB_USER]/[REPOSITORY]/actions/workflows/build.yml/badge.svg)](https://github.com/[GITHUB_USER]/[REPOSITORY]/actions/workflows/build.yml)
+![Hardware](https://img.shields.io/badge/Hardware-KiCad-blue)
+![License](https://img.shields.io/badge/License-CC--BY--NC--SA--4.0-lightgrey)
 
 ## 🔌 Leiterplattenbeschreibung
 
-Die Leiterplatte **LA – Oszillatoren** wurde für Laborübungen im Bereich
-Elektronik und Hardwareentwicklung entwickelt. Sie ermöglicht die praktische
-Untersuchung unterschiedlicher Oszillatorschaltungen und den Vergleich ihrer
-Funktionsprinzipien und Eigenschaften.
+Die Leiterplatte **[PROJECT TITLE]** wurde für [kurze Beschreibung des Einsatzzwecks] entwickelt.
 
-Auf einer gemeinsamen Leiterplatte sind mehrere typische Oszillatorschaltungen
-realisiert:
+[Hier 2–4 Sätze zur Funktion der Leiterplatte, zum Aufbau und zum vorgesehenen Einsatz.]
 
-- **RC-Phasenschieber-Oszillator**
-- **Wien-Brücken-Oszillator**
-- **OPV-Relaxationsoszillator**
-- **RC-/Quarzoszillatoren**
+### Funktionen
 
-Die Schaltungen sind räumlich voneinander getrennt aufgebaut und verfügen über
-gut zugängliche Messpunkte. Dadurch können charakteristische Signale direkt mit
-dem Oszilloskop untersucht und mit den theoretisch berechneten Größen verglichen
-werden.
+- [Funktion / Schaltung 1]
+- [Funktion / Schaltung 2]
+- [Funktion / Schaltung 3]
 
-Bei ausgewählten Schaltungen sind Bauteile steck- bzw. austauschbar ausgeführt.
-Damit können beispielsweise unterschiedliche Widerstandswerte eingesetzt und
-deren Einfluss auf Frequenz und Schwingverhalten experimentell untersucht werden.
+[Optionaler Absatz zu besonderen Eigenschaften, Messpunkten, austauschbaren Bauteilen, Schnittstellen usw.]
 
-Die Leiterplatte wird mit **+5 V / GND / −5 V** versorgt. Die einzelnen
-Messpunkte und Anschlüsse sind direkt auf der Leiterplatte beschriftet.
-
-> **Einsatzgebiet:** Laborunterricht zur Untersuchung von Oszillatoren,
-> Schwingbedingungen, Frequenzbestimmung und dem Einfluss einzelner Bauteile.
+> **Einsatzgebiet:** [Kurze Beschreibung des vorgesehenen Einsatzes]
 
 ---
 
-# 📥 Downloads
+## 📥 Downloads
 
 | Datei | Beschreibung |
-|:------|:-------------|
-| 📄 Schaltplan (PDF) | [`schematic.pdf`](../../releases/latest/download/schematic.pdf) |
-| 🖨 Leiterplatte (PDF) | [`pcb.pdf`](../../releases/latest/download/pcb.pdf) |
-| 🔩 Bohrplan | [`drill.pdf`](../../releases/latest/download/drill.pdf) |
-| 📋 Stückliste (Excel) | [`bom.xlsx`](../../releases/latest/download/bom.xlsx) |
-| 🌐 Interactive BOM | [`ibom.html`](../../releases/latest/download/ibom.html) |
-| 📦 Fertigungsdaten | [`kicad.zip`](../../releases/latest/download/kicad.zip) |
-| 🧊 STEP-Modell | [`pcb.step`](../../releases/latest/download/pcb.step) |
+|---|---|
+| 📄 [Schaltplan (PDF)](../../releases/latest/download/schematic.pdf) | Schaltplan der Leiterplatte |
+| 🖨️ [Leiterplatte (PDF)](../../releases/latest/download/pcb.pdf) | Leiterplattenansicht als PDF |
+| 🔩 [Bohrplan (PDF)](../../releases/latest/download/drill.pdf) | Bohrdaten / Bohrplan |
+| 📋 [Stückliste (Excel)](../../releases/latest/download/bom.xlsx) | Bill of Materials |
+| 🌐 [Interactive BOM](../../releases/latest/download/ibom.html) | Interaktive Bestückungsansicht |
+| 📦 [Fertigungsdaten](../../releases/latest/download/kicad.zip) | Gerber- und Bohrdaten |
+| 🧊 [STEP-Modell](../../releases/latest/download/pcb.step) | 3D-Modell der Leiterplatte |
+
+Die Dateien werden automatisch durch den Release-Workflow erzeugt.
 
 ---
 
-# 🖥 Leiterplatte
+## 🖥️ Leiterplatte
 
-## Vorschau
+### Vorschau
 
 | Oberseite | Unterseite |
-|:---------:|:----------:|
-| ![](../../releases/latest/download/top.kicad.thumbnail.png) | ![](../../releases/latest/download/bottom.kicad.thumbnail.png) |
+|:---:|:---:|
+| ![PCB Top](images/pcb_top_small.png) | ![PCB Bottom](images/pcb_bottom_small.png) |
 
-## Oberseite
+### Oberseite
 
-![](../../releases/latest/download/top.kicad.png)
+![PCB Top](images/pcb_top.png)
 
-## Unterseite
+### Unterseite
 
-![](../../releases/latest/download/bottom.kicad.png)
+![PCB Bottom](images/pcb_bottom.png)
 
 ---
 
-# ℹ Projektinformationen
+## ℹ️ Projektinformationen
 
 | Eigenschaft | Wert |
-|--------------|------|
-| Projekt | LA – Oszillatoren |
-| Software | KiCad 10 |
-| Repository | TIH-engineering/Oszillatoren |
-| Lizenz | CC BY-NC-SA 4.0 |
+|---|---|
+| **Projekt** | [PROJECT TITLE] |
+| **Software** | KiCad 10 |
+| **Repository** | [GITHUB_USER]/[REPOSITORY] |
+| **Autor** | [NAME] |
+| **Lizenz** | CC BY-NC-SA 4.0 |
 
 ---
 
-# 🚀 Releases
+## 🗂️ Repository-Struktur
 
-Jeder Release enthält automatisch:
-
-- Gerberdaten
-- Bohrdaten
-- Stückliste (Excel)
-- Interactive BOM
-- STEP-Modell
-- Schaltplan als PDF
-- Leiterplatte als PDF
-- 3D-Renderings
-
-Die jeweils aktuelle Version befindet sich unter **Releases**.
-
----
-
-# 👨‍🏫 Autor
-
-**HTL Rankweil**  
-Labor Elektronik / Hardwareentwicklung
+```text
+.
+├── .github/
+│   └── workflows/       # GitHub Actions
+├── .kibot/              # KiBot-Konfiguration
+├── images/              # Bilder und Renderings
+├── pcb/
+│   ├── lib/             # Projektspezifische Bibliotheken
+│   └── ...              # KiCad-Projektdateien
+├── .gitignore
+├── LICENSE
+└── README.md
