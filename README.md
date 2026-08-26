@@ -45,15 +45,15 @@ Die Dateien werden automatisch durch den Release-Workflow erzeugt.
 
 | Oberseite | Unterseite |
 |:---:|:---:|
-| ![PCB Top](images/pcb_top_small.png) | ![PCB Bottom](images/pcb_bottom_small.png) |
+| ![PCB Top](../../releases/latest/download/top.kicad.thumbnail.png) | ![PCB Bottom](../../releases/latest/download/bottom.kicad.thumbnail.png) |
 
 ### Oberseite
 
-![PCB Top](images/pcb_top.png)
+![PCB Top](../../releases/latest/download/top.kicad.png)
 
 ### Unterseite
 
-![PCB Bottom](images/pcb_bottom.png)
+![PCB Bottom](../../releases/latest/download/bottom.kicad.png)
 
 ---
 
