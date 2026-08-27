@@ -76,7 +76,6 @@ Die Dateien werden automatisch durch den Release-Workflow erzeugt.
 ├── .github/
 │   └── workflows/       # GitHub Actions
 ├── .kibot/              # KiBot-Konfiguration
-├── images/              # Bilder und Renderings
 ├── pcb/
 │   ├── lib/             # Projektspezifische Bibliotheken
 │   └── ...              # KiCad-Projektdateien
